@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./Backend
+    container_name: ba_booking_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=production
+      - HOST=0.0.0.0
+      - PORT=8000
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/gcs_key.json
+      # Pass through MLflow env vars from local .env or define here
+      - MLFLOW_TRACKING_URI=http://35.192.146.116:5000
+      - MLFLOW_RUN_ID=97e7140d650b4b8294eacd37751dcee0
+      - MODEL_ARTIFACT_PATH=production_pipeline
+    volumes:
+      # Mount the GCS credential file into the container
+      # IMPORTANT: Ensure the path on host matches your actual key location
+      - H:/coding/gcp_credentials.json:/app/gcs_key.json
+
+  frontend:
+    build: ./Frontend
+    container_name: ba_booking_frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend

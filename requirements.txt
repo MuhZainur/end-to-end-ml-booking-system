@@ -1,0 +1,42 @@
+# British Airways MLOps Project - Dependencies Guide
+# ====================================================
+# This is a multi-service architecture project.
+# Each component has its own dependency file.
+
+# -----------------------------------------------------
+# Backend API (FastAPI + MLflow)
+# -----------------------------------------------------
+# Location: MLE/Backend/requirements.txt
+# Install: pip install -r MLE/Backend/requirements.txt
+#
+# Key Dependencies:
+# - fastapi, uvicorn (API Framework)
+# - mlflow (Model Registry & Tracking)
+# - scikit-learn, imbalanced-learn (ML Libraries)
+# - google-cloud-storage (GCS Authentication)
+
+# -----------------------------------------------------
+# Frontend Dashboard (React + Vite)
+# -----------------------------------------------------
+# Location: MLE/Frontend/package.json
+# Install: cd MLE/Frontend && npm install
+#
+# Key Dependencies:
+# - React 18, Vite (UI Framework & Build Tool)
+# - Tailwind CSS (Styling)
+# - Axios (HTTP Client)
+
+# -----------------------------------------------------
+# Quick Setup (Local Development with Docker)
+# -----------------------------------------------------
+# 1. Ensure Docker & Docker Compose are installed
+# 2. Navigate to MLE directory: cd MLE
+# 3. Run: docker-compose up --build
+# 4. Access:
+#    - Frontend: http://localhost:3000
+#    - Backend API: http://localhost:8000/docs
+
+# -----------------------------------------------------
+# Environment Variables Required
+# -----------------------------------------------------
+# See: MLE/Backend/.env.example for configuration template
