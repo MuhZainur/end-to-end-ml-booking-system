@@ -71,7 +71,7 @@ function App() {
             route: (formData.route || 'AKLDEL').toUpperCase()
         }
 
-        const API_URL = import.meta.env.VITE_API_URL || "https://ba-booking-predictor.onrender.com";
+        const API_URL = import.meta.env.VITE_API_URL || "https://end-to-end-ml-booking-system.onrender.com";
 
         try {
             const endpoint = `${API_URL.replace(/\/+$/, '')}/predict`;

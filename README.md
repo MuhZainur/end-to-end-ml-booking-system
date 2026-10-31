@@ -6,7 +6,7 @@
 
 **🔴 LIVE DEMO:**
 *   **Frontend Dashboard:** [Click to Open App 🚀](https://ba-booking-predictor.vercel.app/)
-*   **Backend API (Swagger):** [Swagger UI 📄](https://ba-booking-predictor.onrender.com/docs)
+*   **Backend API (Swagger):** [Swagger UI 📄](https://end-to-end-ml-booking-system.onrender.com/docs)
 
 An End-to-End Machine Learning Solution to predict customer booking intent and optimize revenue strategies. Built for the modern enterprise stack, transforming raw flight data into a deployed, scalable predictive AI.
 
