@@ -4,7 +4,7 @@
 **Project Name:** Enterprise-Grade Model Deployment System
 **Role:** Machine Learning Engineer
 **Goal:** Transition a static Data Science model into a scalable, high-availability web application with automated updates.
-**Stack:** FastAPI, React (Vite), Docker, Google Cloud Platform (GCP), GitHub Actions (GitOps).
+**Stack:** FastAPI, React (Vite), Docker, Render & Vercel, GitHub Actions.
 
 ---
 

@@ -5,8 +5,8 @@
 [![Docker](https://img.shields.io/badge/Deployment-Docker%20%2B%20GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)]()
 
 **🔴 LIVE DEMO:**
-*   **Frontend Dashboard:** [https://ba-booking-frontend-567427950134.us-central1.run.app/](https://ba-booking-frontend-567427950134.us-central1.run.app/)
-*   **Backend API (Swagger):** [https://ba-backend-567427950134.us-central1.run.app/docs](https://ba-backend-567427950134.us-central1.run.app/docs)
+*   **Frontend Dashboard:** [Click to Open App 🚀](https://ba-booking-predictor.vercel.app/)
+*   **Backend API (Swagger):** [Swagger UI 📄](https://ba-booking-predictor.onrender.com/docs)
 
 An End-to-End Machine Learning Solution to predict customer booking intent and optimize revenue strategies. Built for the modern enterprise stack, transforming raw flight data into a deployed, scalable predictive AI.
 
@@ -73,8 +73,8 @@ The entire application can be launched with a single command using Docker Compos
     ```
 
 3.  **Access Services**
-    *   **Web Dashboard:** https://ba-booking-frontend-567427950134.us-central1.run.app
-    *   **API Docs (Swagger):** https://ba-booking-backend-567427950134.us-central1.run.app/
+    *   **Web Dashboard:** [http://localhost:3000](http://localhost:3000)
+    *   **API Docs (Swagger):** [http://localhost:8000/docs](http://localhost:8000/docs)
 
 
 ---
