@@ -33,7 +33,6 @@ venv/
 node_modules/
 npm-debug.log
 yarn-error.log
-package-lock.json
 
 # Vite / Frontend Build
 MLE/Frontend/dist/
@@ -53,11 +52,10 @@ mlruns/
 .trash/
 
 # Google Cloud Keys
-*.json
-!MLE/Config/model_version.json
-!MLE/Backend/model_version.json
-!vercel.json
-!MLE/Frontend/vercel.json
+*key*.json
+*credential*.json
+*gcs*.json
+gcp*.json
 
 # Datasets
 *.csv
