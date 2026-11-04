@@ -62,8 +62,8 @@ The entire application can be launched with a single command using Docker Compos
 ### Steps
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/YourUsername/BA_Booking_Prediction.git
-    cd BA_Booking_Prediction
+    git clone https://github.com/MuhZainur/end-to-end-ml-booking-system.git
+    cd end-to-end-ml-booking-system
     ```
 
 2.  **Launch Application**
@@ -79,9 +79,9 @@ The entire application can be launched with a single command using Docker Compos
 
 ---
 
-## 🚀 Live Deployment (Google Cloud Run)
+## 🚀 Earlier Deployment (Google Cloud Run)
 
-This project is deployed manually to Google Cloud Platform using Docker containers and Cloud Run.
+This project was first deployed manually to Google Cloud Platform using Docker containers and Cloud Run. It now runs on Render and Vercel, using the live links at the top of this README.
 
 **Deployment Method:** Manual Docker Push (CI/CD under IAM security review)
 
